@@ -19,7 +19,7 @@ services:
       postgres_pass: let-me-in
       postgres_db: graph-node
       ipfs: 'ipfs:5001'
-      ethereum: 'mainnet:http://host.docker.internal:8545'
+      ethereum: 'movementtestnet:https://mevm.devnet.m1.movementlabs.xyz/v1'
       GRAPH_LOG: info
   ipfs:
     image: ipfs/kubo:v0.17.0
